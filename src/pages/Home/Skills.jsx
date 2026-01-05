@@ -69,7 +69,6 @@ export default Skills;
 
 const skills = [
   {
-    id: 1,
     name: "HTML",
     icon: (
       <img
@@ -79,7 +78,6 @@ const skills = [
     ),
   },
   {
-    id: 2,
     name: "CSS",
     icon: (
       <img
@@ -89,7 +87,6 @@ const skills = [
     ),
   },
   {
-    id: 4,
     name: "JAVASCRIPT",
     icon: (
       <>
@@ -101,9 +98,8 @@ const skills = [
             xmlns="http://www.w3.org/2000/svg"
           >
             <text
-              x="12"
+              x="7"
               y="16"
-              textAnchor="middle"
               fill="#000"
               fontSize="10"
               fontWeight="bold"
@@ -117,7 +113,6 @@ const skills = [
     ),
   },
   {
-    id: 5,
     name: "REACT JS",
     icon: (
       <div className="circles w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14">
@@ -129,7 +124,6 @@ const skills = [
     ),
   },
   {
-    id: 6,
     name: "GITHUB",
     icon: (
       <svg
@@ -146,38 +140,39 @@ const skills = [
     ),
   },
   {
-    id: 7,
     name: "NODE JS",
     icon: <img src="/node.png" className=" h-10 sm:h-12 md:h-14" />,
   },
   {
-    id: 8,
     name: "FIREBASE",
     icon: <img src="/fire.png" className=" h-10  sm:h-12 md:h-14" />,
   },
   {
-    id: 9,
     name: "MONGODB",
     icon: <img src="/mongo.jpeg" className="h-10  sm:h-12  md:h-14" />,
   },
   {
-    id: 9,
     name: "Pinecone",
     icon: <img src="/pinecone.png" className="h-10  sm:h-12  md:h-14" />,
   },
   {
-    id: 9,
     name: "Socket.io",
     icon: <img src="/socketio.png" className="h-10  sm:h-12  md:h-14" />,
   },
   {
-    id: 9,
     name: "MySQL",
     icon: <img src="/mysql.png" className="h-10  sm:h-12  md:h-14" />,
   },
   {
-    id: 9,
     name: "Python",
     icon: <img src="/python.png" className="h-10  sm:h-12  md:h-14" />,
+  },
+  {
+    name: "NEXT JS",
+    icon: <img src="/nextjs.png" className="h-10  sm:h-12  md:h-14" />,
+  },
+  {
+    name: "Razorpay",
+    icon: <img src="/razorpay.png" className="h-10  sm:h-12  md:h-14" />,
   },
 ];

@@ -65,9 +65,11 @@ function Projects() {
         </div>
         <a
           href="/projects"
-          className="absolute right-0 top-1/10  text-red-600 text-sm sm:text-base md:text-lg font-medium hover:underline self-start sm:self-auto flex  justify-center items-center gap-1"
+          className="absolute right-0 top-1/10 text-red-600 text-sm sm:text-base md:text-lg font-medium hover:underline self-start sm:self-auto flex  justify-center items-center gap-1"
         >
-          Explore More <MoveRight />
+          <span className="hidden sm:inline-block">Explore</span>
+          More
+          <MoveRight />
         </a>
       </div>
 

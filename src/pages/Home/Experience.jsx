@@ -38,9 +38,9 @@ function Experience() {
         data-aos-duration="700"
         data-aos-delay="300"
       >
-        <div className="w-8 sm:w-16 h-[3px] bg-orange-500 rounded-full inline-block relative -bottom-1" />
+        <div className="w-6 sm:w-16 h-[3px] bg-orange-500 rounded-full inline-block relative -bottom-1" />
         My Work Experience
-        <div className="w-8 sm:w-16 h-[3px] bg-orange-500 rounded-full inline-block relative -bottom-1" />
+        <div className="w-6 sm:w-16 h-[3px] bg-orange-500 rounded-full inline-block relative -bottom-1" />
       </h2>
 
       {/* Timeline Container */}

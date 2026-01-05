@@ -10,11 +10,8 @@
 body {
   box-sizing: inherit;
   overflow-x: clip;
-  /* width: 100vw; */
 }
-/* body::-webkit-scrollbar {
-  width: 0px;
-} */
+
 .portfolio {
   font-family: "Allura", cursive;
 }
