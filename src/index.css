@@ -6,9 +6,15 @@
 * {
   font-family: "Raleway", sans-serif;
 }
+
 body {
-  overflow-x: hidden;
+  box-sizing: inherit;
+  overflow-x: clip;
+  /* width: 100vw; */
 }
+/* body::-webkit-scrollbar {
+  width: 0px;
+} */
 .portfolio {
   font-family: "Allura", cursive;
 }
@@ -19,6 +25,7 @@ body {
 /* Navbar hover semicircle brackets */
 .nav-item {
   transition: color 0.3s ease;
+  /* overflow: hidden; */
 }
 
 .nav-item::before,

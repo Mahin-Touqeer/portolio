@@ -10,7 +10,7 @@ function Navbar() {
   };
 
   return (
-    <div className="bg-[#f8f7f1]">
+    <div className="bg-[#f8f7f1] w-screen">
       <nav className="flex items-center justify-between px-4 sm:px-6 lg:px-20 py-6 max-w-7xl mx-auto relative bg-[#f8f7f1]">
         {/* Logo */}
         <h2 className="text-5xl portfolio text-[#194643]">Portfolio</h2>
