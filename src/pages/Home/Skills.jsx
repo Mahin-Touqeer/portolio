@@ -113,6 +113,37 @@ const skills = [
     ),
   },
   {
+    name: "TYPESCRIPT",
+    icon: (
+      <>
+        <div className="ts-gradient-glow w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 flex items-center justify-center">
+          <svg
+            className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <text
+              x="6"
+              y="16"
+              fill="#000"
+              fontSize="10"
+              fontWeight="bold"
+              fontFamily="Arial, sans-serif"
+            >
+              TS
+            </text>
+          </svg>
+        </div>
+      </>
+    ),
+  },
+  {
+    name: "Python",
+    icon: <img src="/python.png" className="h-10  sm:h-12  md:h-14" />,
+  },
+
+  {
     name: "REACT JS",
     icon: (
       <div className="circles w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14">
@@ -122,6 +153,10 @@ const skills = [
         <span></span>
       </div>
     ),
+  },
+  {
+    name: "NEXT JS",
+    icon: <img src="/nextjs.png" className="h-10  sm:h-12  md:h-14" />,
   },
   {
     name: "GITHUB",
@@ -163,14 +198,7 @@ const skills = [
     name: "MySQL",
     icon: <img src="/mysql.png" className="h-10  sm:h-12  md:h-14" />,
   },
-  {
-    name: "Python",
-    icon: <img src="/python.png" className="h-10  sm:h-12  md:h-14" />,
-  },
-  {
-    name: "NEXT JS",
-    icon: <img src="/nextjs.png" className="h-10  sm:h-12  md:h-14" />,
-  },
+
   {
     name: "Razorpay",
     icon: <img src="/razorpay.png" className="h-10  sm:h-12  md:h-14" />,

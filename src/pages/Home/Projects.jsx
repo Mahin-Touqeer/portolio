@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 function Projects() {
   const scrollContainerRef = useRef(null);
-
   const projects = [
     {
       id: 3,

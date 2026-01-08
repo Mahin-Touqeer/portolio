@@ -74,6 +74,14 @@ body {
   border-radius: 50%;
 }
 
+/* Animated blue gradient with glow effect */
+.ts-gradient-glow {
+  background: linear-gradient(135deg, #00b8ff, #0099ff, #00ffff, #00b8ff);
+  background-size: 200% 200%;
+  animation: gradientShift 3s ease infinite;
+  border-radius: 50%;
+}
+
 @keyframes gradientShift {
   0% {
     background-position: 0% 50%;
