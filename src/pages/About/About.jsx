@@ -152,7 +152,7 @@ function About() {
 
               {/* Resume */}
               <a
-                href="/Mahin_Touqeer.pdf"
+                href="https://drive.google.com/file/d/1U9iHuEI22nUh34pPMmDNUkzG_y2QnN-i/view?usp=sharing"
                 download
                 className="
                   inline-flex items-center gap-2

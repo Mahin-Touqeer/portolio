@@ -41,7 +41,7 @@ function Hero() {
 
               <div className="mt-4 flex mb-18 md:mb-0 sm:flex-row gap-3 sm:gap-4">
                 <a
-                  href="/Mahin_Touqeer.pdf"
+                  href="https://drive.google.com/file/d/1U9iHuEI22nUh34pPMmDNUkzG_y2QnN-i/view?usp=sharing"
                   download
                   data-aos="fade-up"
                   data-aos-duration={750}
