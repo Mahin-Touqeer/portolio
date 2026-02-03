@@ -1,42 +1,6 @@
 import "./styles/skills.css";
-const SocketIOImageGlitch = () => {
-  return (
-    <div className="relative w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 ">
-      {/* Glitch layer 1 - Red tint */}
-      <img
-        src="/redtint.png"
-        alt=""
-        className="absolute w-full h-full object-contain animate-glitch-red"
-        style={
-          {
-            // filter: "brightness(1.2) saturate(2)",
-            // mixBlendMode: "screen",
-          }
-        }
-      />
-
-      {/* Glitch layer 2 - Cyan tint */}
-      <img
-        src="/cyantint.png"
-        alt=""
-        className="absolute inset-0 w-full h-full object-contain  animate-glitch-cyan"
-        style={
-          {
-            // filter: "brightness(1.2) saturate(2) hue-rotate(180deg)",
-            // mixBlendMode: "screen",
-          }
-        }
-      />
-      {/* Base image */}
-      <img
-        src="/socketio-removebg.png"
-        alt="Socket.IO"
-        className="absolute inset-0 w-full h-full opacity-50 object-contain"
-      />
-    </div>
-  );
-};
-
+import SocketIOImageGlitch from "./skills_components/SocketIOImageGlitch.jsx";
+import PythonComponent from "./skills_components/PythonComponent.jsx";
 function Skills() {
   return (
     <section className="relative px-4 sm:px-6 lg:px-24 py-12 sm:py-16 lg:py-20">
@@ -89,7 +53,7 @@ function Skills() {
                   w-20 sm:w-24 md:w-28 lg:w-32 xl:w-36
                 "
               >
-                <div className="mb-2 sm:mb-3 md:mb-4 flex items-center justify-center">
+                <div className="mb-2 sm:mb-3 md:mb-4 flex items-center  justify-center relative">
                   {skill.icon}
                 </div>
                 <h3 className="text-[10px] sm:text-xs md:text-sm font-bold text-gray-900 uppercase text-center">
@@ -179,7 +143,7 @@ const skills = [
   },
   {
     name: "Python",
-    icon: <img src="/python.png" className="h-10  sm:h-12  md:h-14" />,
+    icon: <PythonComponent />,
   },
 
   {

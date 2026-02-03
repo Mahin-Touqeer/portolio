@@ -1,0 +1,45 @@
+.python-img {
+  animation: rotate 2s ease-in-out infinite;
+}
+
+.python-img-2 {
+  animation: fadein 2s ease-in-out infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  66% {
+    transform: rotate(-180deg);
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+    transform: rotate(-180deg);
+  }
+  80.0001% {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(-0deg);
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
