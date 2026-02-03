@@ -1,0 +1,67 @@
+.nextjs-gradient-glow {
+  background: linear-gradient(
+    135deg,
+    #020d0a 0%,
+    #02100c 38%,
+    #f5fffb 46%,
+    #091a28 58%,
+    #020d0a 100%
+  );
+
+  background-size: 800% 500%;
+  animation: gradientShift 4.5s ease-in-out infinite;
+  border-radius: 50%;
+}
+@keyframes glitch-red {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(-3px, 2px);
+  }
+  20% {
+    transform: translate(3px, -2px);
+  }
+  30% {
+    transform: translate(0, 0);
+  }
+  40% {
+    transform: translate(-2px, 3px);
+  }
+  50%,
+  90% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes glitch-cyan {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  15% {
+    transform: translate(3px, -2px);
+  }
+  25% {
+    transform: translate(-3px, 2px);
+  }
+  35% {
+    transform: translate(0, 0);
+  }
+  45% {
+    transform: translate(2px, -3px);
+  }
+  65%,
+  95% {
+    transform: translate(0, 0);
+  }
+}
+
+.animate-glitch-red {
+  animation: glitch-red 3s infinite;
+}
+
+.animate-glitch-cyan {
+  animation: glitch-cyan 2s infinite;
+}

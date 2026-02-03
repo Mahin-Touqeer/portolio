@@ -36,7 +36,9 @@ body {
   border-radius: 200px;
   opacity: 0;
   transform: translateY(-50%) scale(0);
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
   pointer-events: none;
 }
 

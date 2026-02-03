@@ -1,3 +1,42 @@
+import "./styles/skills.css";
+const SocketIOImageGlitch = () => {
+  return (
+    <div className="relative w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 ">
+      {/* Glitch layer 1 - Red tint */}
+      <img
+        src="/redtint.png"
+        alt=""
+        className="absolute w-full h-full object-contain animate-glitch-red"
+        style={
+          {
+            // filter: "brightness(1.2) saturate(2)",
+            // mixBlendMode: "screen",
+          }
+        }
+      />
+
+      {/* Glitch layer 2 - Cyan tint */}
+      <img
+        src="/cyantint.png"
+        alt=""
+        className="absolute inset-0 w-full h-full object-contain  animate-glitch-cyan"
+        style={
+          {
+            // filter: "brightness(1.2) saturate(2) hue-rotate(180deg)",
+            // mixBlendMode: "screen",
+          }
+        }
+      />
+      {/* Base image */}
+      <img
+        src="/socketio-removebg.png"
+        alt="Socket.IO"
+        className="absolute inset-0 w-full h-full opacity-50 object-contain"
+      />
+    </div>
+  );
+};
+
 function Skills() {
   return (
     <section className="relative px-4 sm:px-6 lg:px-24 py-12 sm:py-16 lg:py-20">
@@ -156,7 +195,13 @@ const skills = [
   },
   {
     name: "NEXT JS",
-    icon: <img src="/nextjs.png" className="h-10  sm:h-12  md:h-14" />,
+    icon: (
+      <>
+        <div className="nextjs-gradient-glow w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 flex items-center justify-center">
+          <img src="/nextjs - Copy.png" />
+        </div>
+      </>
+    ),
   },
   {
     name: "GITHUB",
@@ -192,7 +237,7 @@ const skills = [
   },
   {
     name: "Socket.io",
-    icon: <img src="/socketio.png" className="h-10  sm:h-12  md:h-14" />,
+    icon: <SocketIOImageGlitch />,
   },
   {
     name: "MySQL",
